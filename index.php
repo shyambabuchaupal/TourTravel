@@ -37,7 +37,8 @@
 
                 <div class="col-lg-3 col-md-6 zoom">
                     <div class="stats-item text-center w-100 h-100">
-                        <div class="card border-0" style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; width:14rem; border-radius: 16px;">
+                        <div class="card border-0"
+                            style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; width:14rem; border-radius: 16px;">
                             <div class="card-body">
                                 <h5 class="book_head">EXCITING PACKAGES</h5>
                                 <p class="book_desc">
@@ -54,7 +55,8 @@
 
                 <div class="col-lg-3 col-md-6 zoom">
                     <div class="stats-item text-center w-100 h-100">
-                        <div class="card border-0" style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;width:14rem; border-radius: 16px;">
+                        <div class="card border-0"
+                            style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;width:14rem; border-radius: 16px;">
 
                             <div class="card-body">
                                 <h5 class="book_head">REASONABLE PRICE</h5>
@@ -72,7 +74,8 @@
 
                 <div class="col-lg-3 col-md-6 zoom">
                     <div class="stats-item text-center w-100 h-100">
-                        <div class="card border-0" style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; width:14rem;border-radius: 16px;">
+                        <div class="card border-0"
+                            style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; width:14rem;border-radius: 16px;">
 
                             <div class="card-body">
                                 <h5 class="book_head">CUSTOMIZED TRAVEL</h5>
@@ -90,7 +93,8 @@
 
                 <div class="col-lg-3 col-md-6 zoom">
                     <div class="stats-item text-center w-100 h-100">
-                        <div class="card border-0" style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; width:14rem; border-radius: 16px;">
+                        <div class="card border-0"
+                            style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; width:14rem; border-radius: 16px;">
 
                             <div class="card-body">
                                 <h5 class="book_head">QUICK BOOKINGS</h5>
@@ -111,6 +115,65 @@
         </div>
 
     </section><!-- /Stats Section -->
+
+    <!-- destination section strat  -->
+    <section id="stats">
+
+        <div class="row">
+            <div class="col-lg-7 col-md-6">
+                <img src="assets/img/destination.png" class="w-100 m-auto" alt="...">
+            </div>
+            <div class="col-lg-5 col-md-6">
+                <div class="destination_left">
+                    <p>Make it memorable</p>
+                    <h3>We create the trips you love</h3>
+                    <span>
+                        We take the best of what we’ve learned over our 25 years of experience as luxury travel agents
+                        and bring it all together to create bespoke luxury travel  experiences.
+                    </span>
+                    <div class=" d-flex align-items-center col-12 main_left_div mt-3 mb-3">
+                        <div class="col-lg-3">
+                            <img src="assets/img/desimg1.png" alt="img">
+                        </div>
+                        <div class="col-lg-9">
+                            <div class="left_lower_heading">
+                                <h3>Best Tours</h3>
+                                <p>A strict screening process ensures that we only offer the best tours and trip
+                                    packages.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class=" d-flex align-items-center col-12 main_left_div mt-3 mb-3">
+                        <div class="col-lg-3">
+                            <img src="assets/img/desimg1.png" alt="img">
+                        </div>
+                        <div class="col-lg-9">
+                            <div class="left_lower_heading">
+                                <h3>Best Tours</h3>
+                                <p>A strict screening process ensures that we only offer the best tours and trip
+                                    packages.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class=" d-flex align-items-center col-12 main_left_div mt-3 mb-3">
+                        <div class="col-lg-3">
+                            <img src="assets/img/desimg1.png" alt="img">
+                        </div>
+                        <div class="col-lg-9">
+                            <div class="left_lower_heading">
+                                <h3>Best Tours</h3>
+                                <p>A strict screening process ensures that we only offer the best tours and trip
+                                    packages.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> <!-- destination section End  -->
 
 
 </main>
