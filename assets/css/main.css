@@ -2939,9 +2939,11 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   font-size: 14px;
 }
-.destination_left{
+
+.destination_left {
   margin: 0px 31px 0px 0px;
 }
+
 .destination_left p {
   font-family: "Corinthia";
   color: #FF7A00;
@@ -2957,6 +2959,7 @@ section,
   line-height: 61.13px;
   color: #121212;
 }
+
 .destination_left span {
   font-family: "Poppins";
   font-weight: 400;
@@ -2964,12 +2967,14 @@ section,
   line-height: 16.46px;
   color: #5B5B5B;
 }
+
 .main_left_div {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   padding: 0px 25px;
   border-radius: 8px;
 }
-.left_lower_heading h3{
+
+.left_lower_heading h3 {
   font-family: "Lato";
   font-weight: 500;
   font-size: 24.44px;
@@ -2977,10 +2982,47 @@ section,
   color: #121212;
   margin-bottom: -9px;
 }
-.left_lower_heading p{
+
+.left_lower_heading p {
   font-family: "Lato";
   font-weight: 500;
   font-size: 16.33px;
-  line-height:22.24px;
+  line-height: 22.24px;
+  color: #5B5B5B;
+}
+
+.Testimonials_main {
+  background-color: #FFF7F1;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 25px 6px -25px inset, rgba(0, 0, 0, 0.3) 0px 9px 30px -13px inset;
+  padding: 50px 0 0 0;
+}
+
+.Testimonials_heading h2 {
+  font-family: "Corinthia";
+  font-weight: 700;
+  font-size: 61.11px;
+  line-height: 31.99px;
+  color: #FF7A00;
+  margin-left: 70px;
+}
+
+.Testimonials_heading p {
+  font-family: 'Lato';
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 50.2px;
+  margin-left: 70px;
+  color: #000000;
+}
+.card_shadow{
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  width: 264px;
+  height: 230px;
+}
+.card_shadow p{
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22.5px;
   color: #5B5B5B;
 }

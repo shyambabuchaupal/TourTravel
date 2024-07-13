@@ -129,7 +129,7 @@
                     <h3>We create the trips you love</h3>
                     <span>
                         We take the best of what we’ve learned over our 25 years of experience as luxury travel agents
-                        and bring it all together to create bespoke luxury travel  experiences.
+                        and bring it all together to create bespoke luxury travel experiences.
                     </span>
                     <div class=" d-flex align-items-center col-12 main_left_div mt-3 mb-3">
                         <div class="col-lg-3">
@@ -174,6 +174,35 @@
             </div>
         </div>
     </section> <!-- destination section End  -->
+
+    <!-- Testimonials section start -->
+    <section class='Testimonials_main'>
+        <div class="row">
+            <div class="col-lg-5 col-sm-12">
+                <div class="Testimonials_heading">
+                    <h2>Testimonials</h2>
+                    <p>What our Travelers are saying</p>
+                    <img src="assets/img/Testimonials.png" class="w-100 m-auto" alt="...">
+
+                </div>
+            </div>
+            <div class="col-lg-7 col-sm-12">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-12">
+                        <div class="card card_shadow">
+                            <p>The booking process was a breeze, thanks to their knowledgeable and friendly staff who
+                                helped tailor our itinerary to our preferences. Throughout the trip, our tour guide was
+                                not only informative but also incredibly passionate about the destinations we visited,
+                                enhancing our understanding and appreciation of each location.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials section End  -->
+
 
 
 </main>
