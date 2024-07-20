@@ -26,6 +26,85 @@
 
     </section><!-- /Hero Section -->
 
+    <!-- Stats Section travel -->
+    <section>
+        <div class="container">
+            <div class="slider">
+
+
+                <div class="list">
+
+                    <div class="item">
+                        <img src="assets/img/dbg.png" alt="">
+
+                        <div class="content">
+                            <div class="title">Welcome to Dubai</div>
+                            <div class="type">Let us plan you a perfect Holiday</div>
+                           
+                           
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="assets/img/dbg1.png" alt="">
+
+                        <div class="content">
+                        <div class="title">Welcome to Canada</div>
+                        <div class="type">Let us plan you a perfect Holiday</div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="assets/img/dbg2.png" alt="">
+
+                        <div class="content">
+                        <div class="title">Welcome to India</div>
+                        <div class="type">Let us plan you a perfect Holiday</div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="assets/img/dbg.png" alt="">
+
+                        <div class="content">
+                        <div class="title">Welcome to Australia</div>
+                        <div class="type">Let us plan you a perfect Holiday</div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="thumbnail">
+
+                    <div class="item">
+                        <img src="assets/img/Rectangle1.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="assets/img/Rectangle2.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="assets/img/Rectangle3.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="assets/img/Rectangle4.png" alt="">
+                    </div>
+
+                </div>
+
+
+                <div class="nextPrevArrows">
+                    <button class="prev">
+                        < </button>
+                            <button class="next"> > </button>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!-- end Section travel -->
+
     <!-- Stats Section -->
     <section id="stats" class="stats section bg-white">
 
@@ -202,6 +281,238 @@
         </div>
     </section>
     <!-- Testimonials section End  -->
+    <!-- Video Testimonials section start -->
+    <section>
+        <div class="video_heading">
+            <h2>Videos testimonials</h2>
+            <p>What our Travelers are saying</p>
+        </div>
+        <div class="slider_tour">
+            <div class="slide-tack">
+                <div class="slide_tour">
+                    <img src="assets/img/t1.png" alt="">
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t2.png" alt="">
+
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t3.png" alt="">
+
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t1.png" alt="">
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t2.png" alt="">
+
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t3.png" alt="">
+
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t1.png" alt="">
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t2.png" alt="">
+
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t3.png" alt="">
+
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t1.png" alt="">
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t2.png" alt="">
+
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t3.png" alt="">
+
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t1.png" alt="">
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t2.png" alt="">
+
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t3.png" alt="">
+
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t1.png" alt="">
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t2.png" alt="">
+
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t3.png" alt="">
+
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t1.png" alt="">
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t2.png" alt="">
+
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t3.png" alt="">
+
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t1.png" alt="">
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t2.png" alt="">
+
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t3.png" alt="">
+
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t1.png" alt="">
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t2.png" alt="">
+
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t3.png" alt="">
+
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t1.png" alt="">
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t2.png" alt="">
+
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t3.png" alt="">
+
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t1.png" alt="">
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t2.png" alt="">
+
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t3.png" alt="">
+
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t1.png" alt="">
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t2.png" alt="">
+
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t3.png" alt="">
+
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t1.png" alt="">
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t2.png" alt="">
+
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t3.png" alt="">
+
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t1.png" alt="">
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t2.png" alt="">
+
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t3.png" alt="">
+
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t1.png" alt="">
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t2.png" alt="">
+
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t3.png" alt="">
+
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t1.png" alt="">
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t2.png" alt="">
+
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t3.png" alt="">
+
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t1.png" alt="">
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t2.png" alt="">
+
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t3.png" alt="">
+
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t1.png" alt="">
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t2.png" alt="">
+
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t3.png" alt="">
+
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t1.png" alt="">
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t2.png" alt="">
+
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t3.png" alt="">
+
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t1.png" alt="">
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t2.png" alt="">
+
+                </div>
+                <div class="slide_tour">
+                    <img src="assets/img/t3.png" alt="">
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Video Testimonials section End -->
 
 
 

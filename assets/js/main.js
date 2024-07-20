@@ -1,10 +1,4 @@
-/**
-* Template Name: Append
-* Template URL: https://bootstrapmade.com/append-bootstrap-website-template/
-* Updated: May 10 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 
 (function() {
   "use strict";
@@ -210,3 +204,56 @@
   document.addEventListener('scroll', navmenuScrollspy);
 
 })();
+
+
+
+
+
+
+// travel js start 
+
+let nextBtn = document.querySelector('.next')
+let prevBtn = document.querySelector('.prev')
+
+let slider = document.querySelector('.slider')
+let sliderList = slider.querySelector('.slider .list')
+let thumbnail = document.querySelector('.slider .thumbnail')
+let thumbnailItems = thumbnail.querySelectorAll('.item')
+
+thumbnail.appendChild(thumbnailItems[0])
+
+// Function for next button 
+nextBtn.onclick = function() {
+    moveSlider('next')
+}
+
+
+// Function for prev button 
+prevBtn.onclick = function() {
+    moveSlider('prev')
+}
+
+
+function moveSlider(direction) {
+    let sliderItems = sliderList.querySelectorAll('.item')
+    let thumbnailItems = document.querySelectorAll('.thumbnail .item')
+    
+    if(direction === 'next'){
+        sliderList.appendChild(sliderItems[0])
+        thumbnail.appendChild(thumbnailItems[0])
+        slider.classList.add('next')
+    } else {
+        sliderList.prepend(sliderItems[sliderItems.length - 1])
+        thumbnail.prepend(thumbnailItems[thumbnailItems.length - 1])
+        slider.classList.add('prev')
+    }
+
+
+    slider.addEventListener('animationend', function() {
+        if(direction === 'next'){
+            slider.classList.remove('next')
+        } else {
+            slider.classList.remove('prev')
+        }
+    }, {once: true}) // Remove the event listener after it's triggered once
+}
