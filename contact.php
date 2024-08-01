@@ -29,6 +29,23 @@
                     <h2>CONTACT US</h2>
                     <h6>Reach out to us – whether you have questions about our packages,
                         need assistance with bookings, or simply want expert advice on your next destination.</h6>
+                    <div class=" align-items-center mt-3">
+                        <p class='contact_phone mb-0'><i class="bi bi-telephone-fill fs-5 mt-2" style='color:black;'></i> <span class='ms-2'>
+                                <b> phone:</b> <a href="#" class='fs-6' style='color:#5B5B5B;'>9988776655, 9988226677</a>
+                            </span></p>
+                            <p class='contact_phone mb-0'><i class="bi bi-envelope-fill fs-5 mt-2" style='color:black;'></i> <span class='ms-2'>
+                                <b>Email:</b> <a href="#" class='fs-6' style='color:#5B5B5B;'>info@bluebelltravels.com</a>
+                            </span></p>
+                            <p class='contact_phone'><i class="bi bi-stopwatch-fill fs-5 mt-2" style='color:black;'></i> <span class='ms-2'>
+                                <b> Hours:</b> <a href="#" class='fs-6' style='color:#5B5B5B;'>10 am – 8 pm. Closed on Sundays.</a>
+                            </span></p>
+                            <p class='contact_phone'><i class="bi bi-geo-alt fs-5 mt-2" style='color:black;'></i> <span class='ms-2'>
+                                <b> address:</b> <a href="#" class='fs-6' style='color:#5B5B5B;'>
+                                LGF-70, Ansal Fortune Arcade, Sector 18, Noida,<br> Uttar Pradesh 201301
+                                </a>
+                            </span></p>
+
+                    </div>
                 </div>
 
             </div>
@@ -64,7 +81,7 @@
                             </div>
 
                             <div class="col-md-12">
-                               
+
 
                                 <button type="submit" class='rounded-pill text-white sentbtn'>Send</button>
                             </div>

@@ -57,8 +57,8 @@
 
             <a href="index.php" class="logo d-flex align-items-center me-auto me-xl-0">
                 <!-- Uncomment the line below if you also wish to use an image logo -->
-                <!-- <img src="assets/img/logo.png" alt=""> -->
-                <h1 class="sitename">Append</h1><span>.</span>
+                <img src="assets/img/bluebell-logo.png" alt="">
+                <!-- <h1 class="sitename">Append</h1><span>.</span> -->
             </a>
 
             <nav id="navmenu" class="navmenu">
@@ -66,7 +66,7 @@
                     <li><a href="index.php" class="">Home</a></li>
                     <li><a href="index.html#about">Destination</a></li>
                     <li><a href="index.html#services">Gallery</a></li>
-                    <li><a href="index.html#portfolio">About us</a></li>
+                    <li><a href="about.php">About us</a></li>
                     <li><a href="contact.php">Contact us</a></li>
                 </ul>
                 <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
