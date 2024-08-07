@@ -10,24 +10,27 @@
             <div class="hr_line">
                 <div class="row">
                     <div class="col-lg-10">
-                        <h2 data-aos="fade-up" data-aos-delay="100">Welcome to Our Website</h2>
-                        <p data-aos="fade-up" data-aos-delay="200">We are team of talented designers making websites
-                            with Bootstrap</p>
+                        <h2 data-aos="fade-up" data-aos-delay="100"> Welcome to Blue Bell Travels</h2>
+                        <p data-aos="fade-up" data-aos-delay="200">YOUR GATEWAY TO MEMORABLE HOLI...</p>
                     </div>
-                    <div class="col-lg-5">
-                        <form action="#" class="sign-up-form d-flex" data-aos="fade-up" data-aos-delay="300">
-                            <input type="text" class="form-control" placeholder="Enter email address">
-                            <input type="submit" class="btn btn-primary" value="Sign up">
-                        </form>
+
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <div class=' position-relative text-center'>
+                    <div class="position-absolute1 top-50 start-50">
+                        <button>Travel with us</button>
+
                     </div>
                 </div>
+                <p class='text-center'>Find amazing things to do. Anytime, anywhere.</p>
             </div>
         </div>
 
     </section><!-- /Hero Section -->
 
     <!-- Stats Section travel -->
-    <section>
+    <section class='d-none'>
         <div class="container">
             <div class="slider">
 
@@ -106,7 +109,7 @@
     <!-- end Section travel -->
 
     <!-- Stats Section -->
-    <section id="stats" class="stats section bg-white">
+    <section id="stats" class="stats section bg-white d-none">
 
         <img src="assets/img/booking_bg.png" alt="img" class='bookinbg' data-aos="fade-in">
 
@@ -196,7 +199,7 @@
     </section><!-- /Stats Section -->
 
     <!-- destination section strat  -->
-    <section id="stats">
+    <section id="stats" class='d-none'>
 
         <div class="row">
             <div class="col-lg-7 col-md-6">
@@ -255,9 +258,9 @@
     </section> <!-- destination section End  -->
 
     <!-- Testimonials section start -->
-    <section class='Testimonials_main'>
+    <section class='Testimonials_main testimonials'>
         <div class="row">
-            <div class="col-lg-5 col-sm-12">
+            <div class="col-lg-6 col-sm-12">
                 <div class="Testimonials_heading">
                     <h2>Testimonials</h2>
                     <p>What our Travelers are saying</p>
@@ -265,24 +268,194 @@
 
                 </div>
             </div>
-            <div class="col-lg-7 col-sm-12">
-                <div class="row">
-                    <div class="col-lg-3 col-sm-12">
-                        <div class="card card_shadow">
-                            <p>The booking process was a breeze, thanks to their knowledgeable and friendly staff who
-                                helped tailor our itinerary to our preferences. Throughout the trip, our tour guide was
-                                not only informative but also incredibly passionate about the destinations we visited,
-                                enhancing our understanding and appreciation of each location.</p>
-                        </div>
-                    </div>
+            <div class="col-lg-6 col-sm-12 m-auto">
+                <div class="testi_travel">
+                    <div class="swiper">
+                        <script type="application/json" class="swiper-config">
+                        {
+                            "loop": true,
+                            "speed": 600,
+                            "autoplay": {
+                                "delay": 5000
+                            },
+                            "slidesPerView": "auto",
+                            "pagination": {
+                                "el": ".swiper-pagination",
+                                "type": "bullets",
+                                "clickable": true
+                            }
+                        }
+                        </script>
+                        <div class="swiper-wrapper">
 
+                            <div class="swiper-slide">
+                                <div class="testimonial-item">
+                                    <div class="d-flex">
+                                        <img src="assets/img/testimonials/testimonials-1.jpg"
+                                            class="testimonial-img flex-shrink-0" alt="">
+                                        <div>
+                                            <h3>Harshil Bansal</h3>
+                                            <h4>30/11/2023</h4>
+                                            <div class="stars">
+                                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                                    class="bi bi-star-fill"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        <i class="bi bi-quote quote-icon-left"></i>
+                                        <span>
+                                            Me and my family recently visited Dubai and planned our trip by the help of
+                                            BlueBell Tours and Travels Pvt Ltd. It was really an amazing experience and
+                                            they made our trip much more fun and enjoyable. Everything was well planned
+                                            and executed perfectly. Whole team was so humble and eager to help us.
+                                            Really enjoyed it, looking forward to many more trips with you guys.
+                                            Recommend everyone to plan their trip through this company!!
+                                        </span>
+                                        <i class="bi bi-quote quote-icon-right"></i>
+                                    </p>
+                                </div>
+                            </div><!-- End testimonial item -->
+
+                            <div class="swiper-slide">
+                                <div class="testimonial-item">
+                                    <div class="d-flex">
+                                        <img src="assets/img/testimonials/testimonials-2.jpg"
+                                            class="testimonial-img flex-shrink-0" alt="">
+                                        <div>
+                                            <h3>sakshi tyagi</h3>
+                                            <h4>02/01/2024</h4>
+                                            <div class="stars">
+                                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                                    class="bi bi-star-fill"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        <i class="bi bi-quote quote-icon-left"></i>
+                                        <span>We had a good experience with Bluebell tour and travel. Starting from
+                                            providing quotation to clarifying and booking was smooth. All the
+                                            arrangements picking from airport till dropping back to airport after our
+                                            iternary was well taken care. All the hotels provided were excellent and
+                                            driver and vehicle were good. We covered all the places as planned and
+                                            enjoyed the trip. Places - Colombo, Sigiriya, kandy, Nuwara Eliya, Bentota &
+                                            Ella, special thanks to bluebell tour and travels team for arranging a
+                                            memorable trip</span>
+                                        <i class="bi bi-quote quote-icon-right"></i>
+                                    </p>
+                                </div>
+                            </div><!-- End testimonial item -->
+
+                            <div class="swiper-slide">
+                                <div class="testimonial-item">
+                                    <div class="d-flex">
+                                        <img src="assets/img/testimonials/testimonials-3.jpg"
+                                            class="testimonial-img flex-shrink-0" alt="">
+                                        <div>
+                                            <h3>
+                                                Sudhakar M</h3>
+                                            <h4>09/01/2024</h4>
+                                            <div class="stars">
+                                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                                    class="bi bi-star-fill"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        <i class="bi bi-quote quote-icon-left"></i>
+                                        <span>We booked our Singapore trip and it was hassle free service. Wonderful
+                                            experience in preparing itinerary, document submission reminder, timely
+                                            travel arrangements and real time ground support. Mr. Vaibhav Tyagi from
+                                            Blue Bell tour was very active in follow ups and helping to customize the
+                                            itinerary as required at a competitive price. Documents for visa were
+                                            requested and visas sent without any issues. He called regularly with
+                                            updates. Had a memorable well arranged trip. Thank you. Would strongly
+                                            recommended @Blue Bell tour and Travels Pvt Ltd for travel needs. Cheers,
+                                            N</span>
+                                        <i class="bi bi-quote quote-icon-right"></i>
+                                    </p>
+                                </div>
+                            </div><!-- End testimonial item -->
+
+                            <div class="swiper-slide">
+                                <div class="testimonial-item">
+                                    <div class="d-flex">
+                                        <img src="assets/img/testimonials/testimonials-4.jpg"
+                                            class="testimonial-img flex-shrink-0" alt="">
+                                        <div>
+                                            <h3>
+                                                Sunil Bijalwan</h3>
+                                            <h4>09/01/2024</h4>
+                                            <div class="stars">
+                                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                                    class="bi bi-star-fill"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        <i class="bi bi-quote quote-icon-left"></i>
+                                        <span>Excellent!!!
+                                            I have no words to express my heartfelt feelings with Blue Bell Travels.
+                                            It means alot!!!
+
+                                            The trip to Kerala was awesome, Had an amazing experience with Blue Bell
+                                            Travels PVT LTD . Took a tour that included Kerala and Tamil Nadu, and was
+                                            very impressed with the breadth of experiences offered. From the planning
+                                            through to the trip itself, everything was seamless and a great experience
+                                            and special thanks to mr vaibhav who manage each and every thing very
+                                            smoothly.
+                                            Once again Thanks Vaibhav Ji, for your prompt response, open communication
+                                            and especially your caring behaviour will never ever forget.
+                                            Thanksssssss from the bottom of my heart.</span>
+                                        <i class="bi bi-quote quote-icon-right"></i>
+                                    </p>
+                                </div>
+                            </div><!-- End testimonial item -->
+
+                            <div class="swiper-slide">
+                                <div class="testimonial-item">
+                                    <div class="d-flex">
+                                        <img src="assets/img/testimonials/testimonials-5.jpg"
+                                            class="testimonial-img flex-shrink-0" alt="">
+                                        <div>
+                                            <h3>Kavita Bidhuri</h3>
+                                            <h4>11/01/2024</h4>
+                                            <div class="stars">
+                                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                                    class="bi bi-star-fill"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        <i class="bi bi-quote quote-icon-left"></i>
+                                        <span>We planned a beautiful escape to Singapore in last December. We Booked
+                                            Singapore Package with Blue bell Travel that helped us plan a beautiful
+                                            trip, we would like to thank Mr Vaibhav Tyagi who was our representative and
+                                            helped us deal with everything happily on this foreign land. We had our
+                                            doubts in mind while booking the tour operator. Mr Vaibhav our planned
+                                            keeping every minute detail of our likes and dislikes in mind, giving us a
+                                            fabulous trip to remember. We are surely planning the next trip with Blue
+                                            Bell Travels as well</span>
+                                        <i class="bi bi-quote quote-icon-right"></i>
+                                    </p>
+                                </div>
+                            </div><!-- End testimonial item -->
+
+                        </div>
+                        
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- Testimonials section End  -->
     <!-- Video Testimonials section start -->
-    <section>
+    <section class=''>
         <div class="video_heading">
             <h2>Videos testimonials</h2>
             <p>What our Travelers are saying</p>
@@ -516,7 +689,7 @@
 
 
     <!-- Contact Section -->
-    <section>
+    <section class=''>
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-12">
@@ -540,7 +713,8 @@
                                 <span class='ms-2'>
                                     <b> Hours:</b> <a href="#" class='fs-6' style='color:#5B5B5B;'>10 am – 8 pm. Closed
                                         on Sundays.</a>
-                                </span></p>
+                                </span>
+                            </p>
                             <p class='contact_phone'><i class="bi bi-geo-alt fs-5 mt-2" style='color:black;'></i> <span
                                     class='ms-2'>
                                     <b> address:</b> <a href="#" class='fs-6' style='color:#5B5B5B;'>

@@ -150,9 +150,9 @@ h6 {
   }
 }
 
-.scrolled .header {
-  /* box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.1); */
-}
+/* .scrolled .header {
+  box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.1);
+} */
 
 /* Index Page Header
 ------------------------------*/
@@ -165,12 +165,12 @@ h6 {
 
 /* Index Page Header on Scroll
 ------------------------------*/
-.index-page.scrolled .header {
-  /* --background-color: #ffffff; */
-  /* --heading-color: #32353a; */
-  /* --nav-color: #3a3939; */
-  /* --nav-hover-color: #e84545; */
-}
+/* .index-page.scrolled .header {
+ 
+  --heading-color: #32353a;
+  --nav-color: #3a3939;
+ 
+} */
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -1760,6 +1760,10 @@ section,
   --background-color: #f4f4f4;
 }
 
+.testi_travel {
+  margin-right: 100px;
+}
+
 .testimonials .info h3 {
   font-weight: 700;
   font-size: 32px;
@@ -1768,6 +1772,7 @@ section,
 .testimonials .swiper {
   box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.05);
   background-color: #fff;
+  border-radius: 10px;
 }
 
 .testimonials .testimonials-carousel,
@@ -1783,8 +1788,8 @@ section,
 }
 
 .testimonials .testimonial-item .testimonial-img {
-  width: 90px;
-  height: 90px;
+  width: 70px;
+  height: 70px;
   border-radius: 50px;
   border: 6px solid var(--background-color);
   margin-right: 10px;
@@ -1859,6 +1864,10 @@ section,
   background-color: var(--accent-color);
 }
 
+#more {
+  display: none;
+}
+
 @media (max-width: 767px) {
 
   .testimonials .testimonials-carousel,
@@ -1869,6 +1878,8 @@ section,
   .testimonials .testimonial-item {
     margin: 15px;
   }
+
+ 
 }
 
 /*--------------------------------------------------------------
@@ -3113,10 +3124,11 @@ header a:hover {
 .slider .list .item .content {
   font-size: 47.94px;
   font-weight: 500;
-  line-height:57.53px;
+  line-height: 57.53px;
   font-family: "Exo 2";
   color: #FFFFFF;
 }
+
 .slider .list .item .content .type {
   font-size: 33.94px;
   font-weight: 500;
@@ -3390,7 +3402,7 @@ header a:hover {
 .slide-tack {
   display: flex;
   width: calc(1000px *21);
-  animation: scroll 40s linear infinite;
+  animation: scroll 40s linear infinite alternate-reverse;
 }
 
 .slide-tack:hover {
@@ -3445,10 +3457,12 @@ header a:hover {
   top: 0;
   transform: rotateZ(180deg);
 }
-.video_heading{
+
+.video_heading {
   margin-bottom: 50px;
 }
-.video_heading h2{
+
+.video_heading h2 {
   font-size: 61.11px;
   font-weight: 400;
   font-family: "Corinthia";
@@ -3456,7 +3470,8 @@ header a:hover {
   line-height: 31.99px;
   text-align: center;
 }
-.video_heading p{
+
+.video_heading p {
   font-size: 55px;
   font-weight: 700;
   font-family: "Lato";
@@ -3467,13 +3482,14 @@ header a:hover {
 
 /* contact css  */
 
-.contact_phone{
+.contact_phone {
   font-family: 'Poppins' !important;
   font-weight: 500 !important;
   font-size: 20px !important;
   line-height: 41.2px !important;
   color: #121212 !important;
 }
+
 .about_text h3 {
   font-size: 19px;
   font-weight: 400;
@@ -3481,17 +3497,85 @@ header a:hover {
   line-height: 27px;
   color: #121212;
 }
-.about_text h2{
+
+.about_text h2 {
   font-size: 19px;
   font-weight: 600;
   font-family: 'Poppins';
   line-height: 27px;
   color: black;
 }
-.about_text p{
+
+.about_text p {
   font-size: 17px;
   font-weight: 400;
   font-family: 'Poppins';
   line-height: 27px;
   color: #121212;
+}
+
+
+/* testimonial  */
+.wrapper-text {
+  width: 100%;
+  overflow: hidden;
+}
+
+.photobanner-text {
+  position: relative;
+  height: 233px;
+  margin-bottom: 30px;
+  display: flex;
+  width: 100%;
+}
+
+.photobanner-text img {
+  margin: 0px 25px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.photobanner-text {
+  animation: bannermove 10s linear infinite alternate-reverse;
+}
+
+.photobanner-text:hover {
+  animation-play-state: paused;
+}
+
+@keyframes bannermove {
+  from {
+    left: 0px;
+  }
+
+  to {
+    left: -2700px;
+  }
+}
+
+
+@media(max-width: 575px), only screen and (min-width: 576px) and (max-width: 767px), only screen and (min-width: 768px) and (max-width: 991px),
+only screen and (min-width: 992px) and (max-width: 1199px) {
+  .Testimonials_heading h2 {
+    font-family: "Corinthia";
+    font-weight: 700;
+    font-size: 35.11px;
+    line-height: 17.99px;
+    color: #FF7A00;
+    margin-left: 11px;
+  }
+
+  .Testimonials_heading p {
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 34.2px;
+    margin-left: 11px;
+    color: #000000;
+  }
+   .testi_travel {
+    margin-right: 0px;
+    padding: 16px 7px;
+  
+  }
+
 }
