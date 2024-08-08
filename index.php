@@ -109,89 +109,91 @@
     <!-- end Section travel -->
 
     <!-- Stats Section -->
-    <section id="stats" class="stats section bg-white d-none">
+    <section id="stats" class="stats section bg-white">
 
         <img src="assets/img/booking_bg.png" alt="img" class='bookinbg' data-aos="fade-in">
 
         <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
 
-            <div class="row gy-4">
+            <div class="d-none d-md-block">
+                <div class="row gy-4 ">
 
-                <div class="col-lg-3 col-md-6 zoom">
-                    <div class="stats-item text-center w-100 h-100">
-                        <div class="card border-0"
-                            style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; width:14rem; border-radius: 16px;">
-                            <div class="card-body">
-                                <h5 class="book_head">EXCITING PACKAGES</h5>
-                                <p class="book_desc">
-                                    Discover your dream vacation<br> with our handcrafted packages,<br> blending
-                                    excitement and<br> cultural richness.
-                                </p>
+                    <div class="col-lg-3 col-md-6 zoom">
+                        <div class="stats-item text-center w-100 h-100">
+                            <div class="card border-0"
+                                style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; width:14rem; border-radius: 16px;">
+                                <div class="card-body">
+                                    <h5 class="book_head">EXCITING PACKAGES</h5>
+                                    <p class="book_desc">
+                                        Discover your dream vacation<br> with our handcrafted packages,<br> blending
+                                        excitement and<br> cultural richness.
+                                    </p>
 
+                                </div>
+                                <img src="assets/img/booking_img1.png" class="w-50 m-auto" alt="...">
                             </div>
-                            <img src="assets/img/booking_img1.png" class="w-50 m-auto" alt="...">
+
                         </div>
+                    </div><!-- End Stats Item -->
 
-                    </div>
-                </div><!-- End Stats Item -->
+                    <div class="col-lg-3 col-md-6 zoom">
+                        <div class="stats-item text-center w-100 h-100">
+                            <div class="card border-0"
+                                style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;width:14rem; border-radius: 16px;">
 
-                <div class="col-lg-3 col-md-6 zoom">
-                    <div class="stats-item text-center w-100 h-100">
-                        <div class="card border-0"
-                            style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;width:14rem; border-radius: 16px;">
+                                <div class="card-body">
+                                    <h5 class="book_head">REASONABLE PRICE</h5>
+                                    <p class="book_desc">
+                                        Discover your dream vacation<br> with our handcrafted packages,<br> blending
+                                        excitement and<br> cultural richness.
+                                    </p>
 
-                            <div class="card-body">
-                                <h5 class="book_head">REASONABLE PRICE</h5>
-                                <p class="book_desc">
-                                    Discover your dream vacation<br> with our handcrafted packages,<br> blending
-                                    excitement and<br> cultural richness.
-                                </p>
-
+                                </div>
+                                <img src="assets/img/booking_img1.png" class="w-50 m-auto" alt="...">
                             </div>
-                            <img src="assets/img/booking_img1.png" class="w-50 m-auto" alt="...">
+
                         </div>
+                    </div><!-- End Stats Item -->
 
-                    </div>
-                </div><!-- End Stats Item -->
+                    <div class="col-lg-3 col-md-6 zoom">
+                        <div class="stats-item text-center w-100 h-100">
+                            <div class="card border-0"
+                                style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; width:14rem;border-radius: 16px;">
 
-                <div class="col-lg-3 col-md-6 zoom">
-                    <div class="stats-item text-center w-100 h-100">
-                        <div class="card border-0"
-                            style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; width:14rem;border-radius: 16px;">
+                                <div class="card-body">
+                                    <h5 class="book_head">CUSTOMIZED TRAVEL</h5>
+                                    <p class="book_desc">
+                                        Discover your dream vacation<br> with our handcrafted packages,<br> blending
+                                        excitement and<br> cultural richness.
+                                    </p>
 
-                            <div class="card-body">
-                                <h5 class="book_head">CUSTOMIZED TRAVEL</h5>
-                                <p class="book_desc">
-                                    Discover your dream vacation<br> with our handcrafted packages,<br> blending
-                                    excitement and<br> cultural richness.
-                                </p>
-
+                                </div>
+                                <img src="assets/img/booking_img1.png" class="w-50 m-auto" alt="...">
                             </div>
-                            <img src="assets/img/booking_img1.png" class="w-50 m-auto" alt="...">
+
                         </div>
+                    </div><!-- End Stats Item -->
 
-                    </div>
-                </div><!-- End Stats Item -->
+                    <div class="col-lg-3 col-md-6 zoom">
+                        <div class="stats-item text-center w-100 h-100">
+                            <div class="card border-0"
+                                style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; width:14rem; border-radius: 16px;">
 
-                <div class="col-lg-3 col-md-6 zoom">
-                    <div class="stats-item text-center w-100 h-100">
-                        <div class="card border-0"
-                            style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; width:14rem; border-radius: 16px;">
+                                <div class="card-body">
+                                    <h5 class="book_head">QUICK BOOKINGS</h5>
+                                    <p class="book_desc">
+                                        Discover your dream vacation<br> with our handcrafted packages,<br> blending
+                                        excitement and<br> cultural richness.
+                                    </p>
 
-                            <div class="card-body">
-                                <h5 class="book_head">QUICK BOOKINGS</h5>
-                                <p class="book_desc">
-                                    Discover your dream vacation<br> with our handcrafted packages,<br> blending
-                                    excitement and<br> cultural richness.
-                                </p>
-
+                                </div>
+                                <img src="assets/img/booking_img1.png" class="w-50 m-auto" alt="...">
                             </div>
-                            <img src="assets/img/booking_img1.png" class="w-50 m-auto" alt="...">
+
                         </div>
+                    </div><!-- End Stats Item -->
 
-                    </div>
-                </div><!-- End Stats Item -->
-
+                </div>
             </div>
 
         </div>
@@ -199,7 +201,7 @@
     </section><!-- /Stats Section -->
 
     <!-- destination section strat  -->
-    <section id="stats" class='d-none'>
+    <section id="stats">
 
         <div class="row">
             <div class="col-lg-7 col-md-6">
@@ -309,9 +311,7 @@
                                             Me and my family recently visited Dubai and planned our trip by the help of
                                             BlueBell Tours and Travels Pvt Ltd. It was really an amazing experience and
                                             they made our trip much more fun and enjoyable. Everything was well planned
-                                            and executed perfectly. Whole team was so humble and eager to help us.
-                                            Really enjoyed it, looking forward to many more trips with you guys.
-                                            Recommend everyone to plan their trip through this company!!
+                                            and executed perfectly.
                                         </span>
                                         <i class="bi bi-quote quote-icon-right"></i>
                                     </p>
@@ -338,11 +338,7 @@
                                         <span>We had a good experience with Bluebell tour and travel. Starting from
                                             providing quotation to clarifying and booking was smooth. All the
                                             arrangements picking from airport till dropping back to airport after our
-                                            iternary was well taken care. All the hotels provided were excellent and
-                                            driver and vehicle were good. We covered all the places as planned and
-                                            enjoyed the trip. Places - Colombo, Sigiriya, kandy, Nuwara Eliya, Bentota &
-                                            Ella, special thanks to bluebell tour and travels team for arranging a
-                                            memorable trip</span>
+                                            iternary was well taken care.</span>
                                         <i class="bi bi-quote quote-icon-right"></i>
                                     </p>
                                 </div>
@@ -368,13 +364,7 @@
                                         <i class="bi bi-quote quote-icon-left"></i>
                                         <span>We booked our Singapore trip and it was hassle free service. Wonderful
                                             experience in preparing itinerary, document submission reminder, timely
-                                            travel arrangements and real time ground support. Mr. Vaibhav Tyagi from
-                                            Blue Bell tour was very active in follow ups and helping to customize the
-                                            itinerary as required at a competitive price. Documents for visa were
-                                            requested and visas sent without any issues. He called regularly with
-                                            updates. Had a memorable well arranged trip. Thank you. Would strongly
-                                            recommended @Blue Bell tour and Travels Pvt Ltd for travel needs. Cheers,
-                                            N</span>
+                                            travel arrangements and real time ground support.</span>
                                         <i class="bi bi-quote quote-icon-right"></i>
                                     </p>
                                 </div>
@@ -403,14 +393,7 @@
                                             It means alot!!!
 
                                             The trip to Kerala was awesome, Had an amazing experience with Blue Bell
-                                            Travels PVT LTD . Took a tour that included Kerala and Tamil Nadu, and was
-                                            very impressed with the breadth of experiences offered. From the planning
-                                            through to the trip itself, everything was seamless and a great experience
-                                            and special thanks to mr vaibhav who manage each and every thing very
-                                            smoothly.
-                                            Once again Thanks Vaibhav Ji, for your prompt response, open communication
-                                            and especially your caring behaviour will never ever forget.
-                                            Thanksssssss from the bottom of my heart.</span>
+                                            Travels PVT LTD . </span>
                                         <i class="bi bi-quote quote-icon-right"></i>
                                     </p>
                                 </div>
@@ -435,24 +418,20 @@
                                         <i class="bi bi-quote quote-icon-left"></i>
                                         <span>We planned a beautiful escape to Singapore in last December. We Booked
                                             Singapore Package with Blue bell Travel that helped us plan a beautiful
-                                            trip, we would like to thank Mr Vaibhav Tyagi who was our representative and
-                                            helped us deal with everything happily on this foreign land. We had our
-                                            doubts in mind while booking the tour operator. Mr Vaibhav our planned
-                                            keeping every minute detail of our likes and dislikes in mind, giving us a
-                                            fabulous trip to remember. We are surely planning the next trip with Blue
-                                            Bell Travels as well</span>
+                                            trip, we would like to thank Mr Vaibhav Tyagi .</span>
                                         <i class="bi bi-quote quote-icon-right"></i>
                                     </p>
                                 </div>
                             </div><!-- End testimonial item -->
 
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
     <!-- Testimonials section End  -->
     <!-- Video Testimonials section start -->
     <section class=''>
