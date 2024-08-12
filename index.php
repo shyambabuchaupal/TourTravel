@@ -29,6 +29,12 @@
 
     </section><!-- /Hero Section -->
 
+    <section>
+        <div class="container">
+            <?php include'secondslider.php' ?>
+        </div>
+    </section>
+
     <!-- Stats Section travel -->
     <section class='d-none'>
         <div class="container">
@@ -109,12 +115,12 @@
     <!-- end Section travel -->
 
     <!-- Stats Section -->
-    <section id="stats" class="stats section bg-white">
+    <section id="stats" class="stats section bg-white d-none">
 
         <img src="assets/img/booking_bg.png" alt="img" class='bookinbg' data-aos="fade-in">
 
         <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
-
+            <!-- This is Desktop Vieww  -->
             <div class="d-none d-md-block">
                 <div class="row gy-4 ">
 
@@ -196,12 +202,89 @@
                 </div>
             </div>
 
+            <!-- This is Desktop View end  -->
+
+
+            <!-- This is Mobile View   -->
+            <div class="d-md-none d-block">
+                <div class="row">
+                    <div class="col-md-12 m-auto">
+                        <div class="swiper">
+                            <script type="application/json" class="swiper-config">
+                            {
+                                "loop": true,
+                                "speed": 600,
+                                "autoplay": {
+                                    "delay": 10000
+                                },
+                                "slidesPerView": "auto",
+                                "pagination": {
+                                    "el": ".swiper-pagination",
+                                    "type": "bullets",
+                                    "clickable": true
+                                }
+                            }
+                            </script>
+                            <div class="swiper-wrapper">
+
+                                <div class="swiper-slide">
+                                    <div class="stats-item text-center w-100 h-100">
+                                        <div class="card border-0 m-auto"
+                                            style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; width1:18rem; border-radius: 16px;">
+                                            <div class="card-body">
+                                                <h5 class="book_head">EXCITING PACKAGES</h5>
+                                                <p class="book_desc_mob">
+                                                    Discover your dream vacation with our handcrafted packages,
+                                                    blending
+                                                    excitement and cultural richness.
+                                                </p>
+
+                                            </div>
+                                            <img src="assets/img/booking_img1.png" class="w-100 m-auto" alt="...">
+                                        </div>
+
+                                    </div>
+                                </div><!-- End testimonial item -->
+
+                                <div class="swiper-slide">
+                                    <div class="stats-item text-center w-100 h-100">
+                                        <div class="card border-0"
+                                            style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; width1:16rem; border-radius: 16px;">
+                                            <div class="card-body">
+                                                <h5 class="book_head">EXCITING PACKAGES</h5>
+                                                <p class="book_desc_mob">
+                                                    Discover your dream vacation with our handcrafted packages,
+                                                    blending
+                                                    excitement and cultural richness.
+                                                </p>
+
+                                            </div>
+                                            <img src="assets/img/booking_img1.png" class="w-100 m-auto" alt="...">
+                                        </div>
+
+                                    </div>
+                                </div><!-- End testimonial item -->
+
+
+
+
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- This is Mobile View end  -->
+
         </div>
 
     </section><!-- /Stats Section -->
 
     <!-- destination section strat  -->
-    <section id="stats">
+    <section id="stats" class='d-none'>
 
         <div class="row">
             <div class="col-lg-7 col-md-6">
@@ -260,7 +343,7 @@
     </section> <!-- destination section End  -->
 
     <!-- Testimonials section start -->
-    <section class='Testimonials_main testimonials'>
+    <section class='Testimonials_main testimonials d-none'>
         <div class="row">
             <div class="col-lg-6 col-sm-12">
                 <div class="Testimonials_heading">
@@ -434,7 +517,7 @@
 
     <!-- Testimonials section End  -->
     <!-- Video Testimonials section start -->
-    <section class=''>
+    <section class='d-none'>
         <div class="video_heading">
             <h2>Videos testimonials</h2>
             <p>What our Travelers are saying</p>

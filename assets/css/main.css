@@ -598,7 +598,7 @@ h6 {
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
-#preloader {
+/* #preloader {
   position: fixed;
   inset: 0;
   z-index: 999999;
@@ -628,7 +628,7 @@ h6 {
   100% {
     transform: rotate(360deg);
   }
-}
+} */
 
 /*--------------------------------------------------------------
 # Scroll Top Button
@@ -3662,4 +3662,24 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
     color: #121212;
   }
 
+  .book_head {
+    font-family: "Lato";
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 20.22px;
+    color: #121212;
+    text-align: center;
+  }
+
+  .book_desc_mob {
+    font-size: 13px;
+    font-family: "Poppins";
+    font-weight: 400;
+    text-align: center;
+    color: #5B5B5B;
+  }
+
 }
+
+
+
