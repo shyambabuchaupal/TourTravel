@@ -62,7 +62,7 @@
             </a>
 
             <nav id="navmenu" class="navmenu">
-                <ul>
+                <ul id='btnId'>
                     <li><a href="index.php" class="">Home</a></li>
                     <li><a href="index.html#about">Destination</a></li>
                     <li><a href="index.html#services">Gallery</a></li>

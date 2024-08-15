@@ -18,8 +18,8 @@
             </div>
             <div class="col-lg-12">
                 <div class=' position-relative text-center'>
-                    <div class="position-absolute1 top-50 start-50">
-                        <button>Travel with us</button>
+                    <div class="position-absolute1 top-50 start-50 hoverbtn w-25 m-auto">
+                        <h4><a href="">Travel with us</a></h4>
 
                     </div>
                 </div>
@@ -29,14 +29,10 @@
 
     </section><!-- /Hero Section -->
 
-    <section>
-        <div class="container">
-            <?php include'secondslider.php' ?>
-        </div>
-    </section>
+   
 
     <!-- Stats Section travel -->
-    <section class='d-none'>
+    <section class='d-none1'>
         <div class="container">
             <div class="slider">
 
@@ -114,8 +110,8 @@
     </section>
     <!-- end Section travel -->
 
-    <!-- Stats Section -->
-    <section id="stats" class="stats section bg-white d-none">
+    <!-- Stats Section ffff -->
+    <section id="stats" class="stats section bg-white d-none1">
 
         <img src="assets/img/booking_bg.png" alt="img" class='bookinbg' data-aos="fade-in">
 
@@ -126,9 +122,9 @@
 
                     <div class="col-lg-3 col-md-6 zoom">
                         <div class="stats-item text-center w-100 h-100">
-                            <div class="card border-0"
+                            <div class=" border-0"
                                 style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; width:14rem; border-radius: 16px;">
-                                <div class="card-body">
+                                <div class="card-body px-3">
                                     <h5 class="book_head">EXCITING PACKAGES</h5>
                                     <p class="book_desc">
                                         Discover your dream vacation<br> with our handcrafted packages,<br> blending
@@ -144,10 +140,10 @@
 
                     <div class="col-lg-3 col-md-6 zoom">
                         <div class="stats-item text-center w-100 h-100">
-                            <div class="card border-0"
+                            <div class=" border-0"
                                 style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;width:14rem; border-radius: 16px;">
 
-                                <div class="card-body">
+                                <div class="card-body px-3">
                                     <h5 class="book_head">REASONABLE PRICE</h5>
                                     <p class="book_desc">
                                         Discover your dream vacation<br> with our handcrafted packages,<br> blending
@@ -163,10 +159,10 @@
 
                     <div class="col-lg-3 col-md-6 zoom">
                         <div class="stats-item text-center w-100 h-100">
-                            <div class="card border-0"
+                            <div class=" border-0"
                                 style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; width:14rem;border-radius: 16px;">
 
-                                <div class="card-body">
+                                <div class="card-body px-3">
                                     <h5 class="book_head">CUSTOMIZED TRAVEL</h5>
                                     <p class="book_desc">
                                         Discover your dream vacation<br> with our handcrafted packages,<br> blending
@@ -182,10 +178,10 @@
 
                     <div class="col-lg-3 col-md-6 zoom">
                         <div class="stats-item text-center w-100 h-100">
-                            <div class="card border-0"
+                            <div class=" border-0"
                                 style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; width:14rem; border-radius: 16px;">
 
-                                <div class="card-body">
+                                <div class="card-body px-3">
                                     <h5 class="book_head">QUICK BOOKINGS</h5>
                                     <p class="book_desc">
                                         Discover your dream vacation<br> with our handcrafted packages,<br> blending
@@ -215,7 +211,7 @@
                                 "loop": true,
                                 "speed": 600,
                                 "autoplay": {
-                                    "delay": 10000
+                                    "delay": 4000
                                 },
                                 "slidesPerView": "auto",
                                 "pagination": {
@@ -229,7 +225,7 @@
 
                                 <div class="swiper-slide">
                                     <div class="stats-item text-center w-100 h-100">
-                                        <div class="card border-0 m-auto"
+                                        <div class=" border-0 m-auto"
                                             style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; width1:18rem; border-radius: 16px;">
                                             <div class="card-body">
                                                 <h5 class="book_head">EXCITING PACKAGES</h5>
@@ -248,7 +244,7 @@
 
                                 <div class="swiper-slide">
                                     <div class="stats-item text-center w-100 h-100">
-                                        <div class="card border-0"
+                                        <div class=" border-0"
                                             style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; width1:16rem; border-radius: 16px;">
                                             <div class="card-body">
                                                 <h5 class="book_head">EXCITING PACKAGES</h5>
@@ -283,8 +279,16 @@
 
     </section><!-- /Stats Section -->
 
+
+ <section>
+        <div class="container">
+        <?php include'secondslider.php' ?>
+        </div>
+    </section>
+
+
     <!-- destination section strat  -->
-    <section id="stats" class='d-none'>
+    <section id="stats" class='d-none1'>
 
         <div class="row">
             <div class="col-lg-7 col-md-6">
@@ -343,7 +347,7 @@
     </section> <!-- destination section End  -->
 
     <!-- Testimonials section start -->
-    <section class='Testimonials_main testimonials d-none'>
+    <section class='Testimonials_main testimonials d-none1'>
         <div class="row">
             <div class="col-lg-6 col-sm-12">
                 <div class="Testimonials_heading">
@@ -517,7 +521,7 @@
 
     <!-- Testimonials section End  -->
     <!-- Video Testimonials section start -->
-    <section class='d-none'>
+    <section class='d-none1'>
         <div class="video_heading">
             <h2>Videos testimonials</h2>
             <p>What our Travelers are saying</p>
