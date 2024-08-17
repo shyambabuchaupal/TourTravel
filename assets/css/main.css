@@ -101,6 +101,7 @@ h6 {
 .header .logo img {
   max-height: 72px;
   margin-right: 8px;
+  margin-left: -45px;
 }
 
 .header .logo h1 {
@@ -166,11 +167,12 @@ h6 {
 
 
 /* internationnal css  */
-.interimg{
+.interimg {
   position: relative;
 
 }
-.interimg img{
+
+.interimg img {
   opacity: 1;
   display: block;
   width: 100%;
@@ -178,6 +180,7 @@ h6 {
   transition: .5s ease;
   backface-visibility: hidden;
 }
+
 .middle {
   transition: .5s ease;
   opacity: 0;
@@ -188,12 +191,15 @@ h6 {
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
-.interimg:hover img{
+
+.interimg:hover img {
   opacity: 0.3;
 }
-.interimg:hover .middle{
+
+.interimg:hover .middle {
   opacity: 1;
 }
+
 .text {
   background-color: #04AA6D;
   color: white;
@@ -203,7 +209,8 @@ h6 {
   font-weight: 600;
   border-radius: 10px;
 }
-.hgtf{
+
+.hgtf {
   padding: 16px 50px !important;
 }
 
@@ -262,9 +269,9 @@ h6 {
     transition: 0.3s;
   }
 
-  .navmenu li:last-child a {
-    /* padding-right: 0; */
-  }
+  /* .navmenu li:last-child a {
+    padding-right: 0;
+  } */
 
   .navmenu li:hover>a,
   .navmenu .active,
@@ -335,7 +342,7 @@ h6 {
     color: var(--nav-color);
     font-size: 28px;
     line-height: 0;
-    margin-right: 10px;
+    margin-right: -27px;
     cursor: pointer;
     transition: color 0.3s;
   }
@@ -361,7 +368,7 @@ h6 {
 
   .navmenu a,
   .navmenu a:focus {
-    color: var(--nav-dropdown-color);
+    color: black !important;
     padding: 10px 20px;
     font-family: var(--nav-font);
     font-size: 17px;
@@ -3178,7 +3185,7 @@ header a:hover {
 
 .slider .list .item .content .type {
   font-size: 33.94px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 44px;
   font-family: "Poppins";
   color: #FFFFFF;
@@ -3275,7 +3282,7 @@ header a:hover {
 }
 
 .nextPrevArrows button:hover {
-  background-color: #fff;
+  background-color: #14ff72cb;
   color: #000;
 }
 
@@ -3428,9 +3435,7 @@ header a:hover {
     padding-right: 0;
   }
 
-  .slider .list .item .content .title {
-    font-size: 50px;
-  }
+
 }
 
 
@@ -3611,6 +3616,107 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
     margin-left: 11px;
   }
 
+  .slider .list .item .content .title {
+    font-size: 20.07px;
+    font-family: 'Exo 2';
+    font-weight: 500;
+  }
+
+  .slider .list .item .content .type {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    font-family: "Poppins";
+    color: #FFFFFF;
+    text-align: center;
+  }
+
+  .slider {
+    height: 100vh;
+    /* margin-top: -50px; */
+    width: 100%;
+    overflow: visible;
+    position: relative;
+  }
+
+  .nextPrevArrows {
+    position: absolute;
+    top: 80%;
+    right: 9%;
+    z-index: 100;
+    width: 300px;
+    max-width: 30%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .slider .list .item img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 0px;
+  }
+
+  .thumbnail .item {
+    width: 302px;
+    height: 388px;
+    flex-shrink: 0;
+    position: relative;
+  }
+
+  .thumbnail {
+    position: absolute;
+    left: 10%;
+    width: max-content;
+    z-index: 100;
+    display: flex;
+    gap: 20px;
+    top: 47%;
+    inset: 0;
+    top: 44%;
+  }
+
+  .slider .list .item .content {
+    position: absolute;
+    top: 6%;
+    max-width: 80%;
+    
+    left: 49%;
+    transform: translateX(-49%);
+    box-sizing: border-box;
+    color: #fff;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.05) 100%);
+    border: 0.93px solid #FFFFFF;
+    padding: 19px 1px 100px 0;
+    border-radius: 14px;
+    width: 80%;
+   height: auto;
+}
+
+  .anni {
+    font-size: 15.07px !important;
+    line-height: 21.67px !important;
+    font-family: 'Lato';
+    font-weight: 400;
+    color: white;
+  }
+
+  .textsize {
+    font-size: 17px !important;
+    font-family: 'Poppins';
+    font-weight: 300;
+    line-height: 27px !important;
+  }
+
+  .btunwidth {
+    width: 40% !important;
+  }
+
+  #btnId li a {
+    color: #000 !important;
+  }
+
   .Testimonials_heading p {
     font-family: 'Lato';
     font-weight: 700;
@@ -3725,75 +3831,115 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
     text-align: center;
     color: #5B5B5B;
   }
-  .middle{
+
+  .middle {
     opacity: 1;
   }
 
 }
+
 #btnId {
   gap: 1vw;
 }
-#btnId li{
+
+#btnId li {
   /* border: 1px solid #5B5B5B; */
   border-radius: 50px;
   position: relative;
   transition: all ease 0.4s;
   overflow: hidden;
 }
+
 .hoverbtn h4 {
   border-radius: 50px;
   position: relative;
   transition: all ease 0.4s;
   overflow: hidden;
-  padding: 15px 0;
+  padding: 3px 0;
   border: 1px solid white;
 }
-.hoverbtn h4::after{
+
+.hoverbtn h4::after {
   content: "";
   width: 100%;
   height: 100%;
-  background-color:rgb(218, 207, 207);
+  background-color: rgb(218, 207, 207);
   position: absolute;
   left: 0;
   bottom: -100%;
   border-radius: 50%;
   transition: all ease 0.4s;
 }
-#btnId li::after{
+
+#btnId li::after {
   content: "";
   width: 100%;
   height: 100%;
-  background-color:rgb(218, 207, 207);
+  background-color: rgb(218, 207, 207);
   position: absolute;
   left: 0;
   bottom: -100%;
   border-radius: 50%;
   transition: all ease 0.4s;
 }
-.hoverbtn h4:hover::after{
+
+.hoverbtn h4:hover::after {
   bottom: 0;
-  border-radius:0;
+  border-radius: 0;
 }
-#btnId li:hover::after{
- bottom: 0;
- border-radius:0;
+
+#btnId li:hover::after {
+  bottom: 0;
+  border-radius: 0;
 }
-.hoverbtn h4 a{
+
+.hoverbtn h4 a {
+  color: white;
+  position: relative;
+  z-index: 9;
+  font-size: 17px;
+  line-height: 26.18px;
+  font-family: 'Lato';
+  font-weight: 400;
+}
+
+#btnId li a {
   color: white;
   position: relative;
   z-index: 9;
 }
-#btnId li a{
+
+.hoverbtn h4:hover a {
+  color: black;
+}
+
+#btnId li:hover a {
+  color: black;
+}
+
+.btunwidth {
+  width: 18%;
+}
+
+.textsize {
+  font-size: 22px;
+  font-family: 'Poppins';
+  font-weight: 300;
+  line-height: 59px;
+}
+
+.holiday {
+  font-size: 27.07px;
+  line-height: 32.67px;
+  font-family: 'Lato';
+  font-weight: 400;
   color: white;
-  position: relative;
-  z-index: 9;
-}
-.hoverbtn h4:hover a{
-  color: black;
-}
-#btnId li:hover a{
-  color: black;
 }
 
-
-
+.anni {
+  font-size: 27.07px;
+  line-height: 32.67px;
+  font-family: 'Lato';
+  font-weight: 400;
+  color: white;
+}

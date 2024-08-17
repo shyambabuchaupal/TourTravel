@@ -1,4 +1,15 @@
 <?php require('include/header.php') ?>
+<style>
+/*     
+    
+    /* Cursor */
+.txt-type>.txt {
+    border-right: 0.2rem solid #777;
+}
+
+</style>
+
+
 <main class="main">
 
     <!-- Hero Section -->
@@ -11,25 +22,28 @@
                 <div class="row">
                     <div class="col-lg-10">
                         <h2 data-aos="fade-up" data-aos-delay="100"> Welcome to Blue Bell Travels</h2>
-                        <p data-aos="fade-up" data-aos-delay="200">YOUR GATEWAY TO MEMORABLE HOLI...</p>
+                        <h1 class='anni'>
+                            <span class="txt-type" data-wait="3000"
+                                data-words='["YOUR GATEWAY TO MEMORABLE HOLIDAYS", "YOUR GATEWAY TO MEMORABLE HOLIDAYS"]'></span>
+                        </h1>
                     </div>
 
                 </div>
             </div>
             <div class="col-lg-12">
                 <div class=' position-relative text-center'>
-                    <div class="position-absolute1 top-50 start-50 hoverbtn w-25 m-auto">
+                    <div class="position-absolute1 top-50 start-50 hoverbtn btunwidth m-auto">
                         <h4><a href="">Travel with us</a></h4>
 
                     </div>
                 </div>
-                <p class='text-center'>Find amazing things to do. Anytime, anywhere.</p>
+                <h6 class='text-center textsize'>Find amazing things to do. Anytime, anywhere.</h6>
             </div>
         </div>
 
     </section><!-- /Hero Section -->
 
-   
+
 
     <!-- Stats Section travel -->
     <section class='d-none1'>
@@ -40,8 +54,8 @@
                 <div class="list">
 
                     <div class="item">
-                        <img src="assets/img/dbg.png" alt="">
-
+                        <img src="assets/img/dbg.png" alt="" class='d-none d-md-block'>
+                        <img src="assets/img/mobss.png" alt="" class='d-block d-md-none'>
                         <div class="content">
                             <div class="title">Welcome to Dubai</div>
                             <div class="type">Let us plan you a perfect Holiday</div>
@@ -51,8 +65,8 @@
                     </div>
 
                     <div class="item">
-                        <img src="assets/img/dbg1.png" alt="">
-
+                        <img src="assets/img/dbg1.png" alt="" class='d-none d-md-block'>
+                        <img src="assets/img/mobss.png" alt="" class='d-block d-md-none'>
                         <div class="content">
                             <div class="title">Welcome to Canada</div>
                             <div class="type">Let us plan you a perfect Holiday</div>
@@ -60,8 +74,8 @@
                     </div>
 
                     <div class="item">
-                        <img src="assets/img/dbg2.png" alt="">
-
+                        <img src="assets/img/dbg2.png" alt="" class='d-none d-md-block'>
+                        <img src="assets/img/mobss.png" alt="" class='d-block d-md-none'>
                         <div class="content">
                             <div class="title">Welcome to India</div>
                             <div class="type">Let us plan you a perfect Holiday</div>
@@ -69,8 +83,8 @@
                     </div>
 
                     <div class="item">
-                        <img src="assets/img/dbg.png" alt="">
-
+                        <img src="assets/img/dbg.png" alt="" class='d-none d-md-block'>
+                        <img src="assets/img/mobss.png" alt="" class='d-block d-md-none'>
                         <div class="content">
                             <div class="title">Welcome to Australia</div>
                             <div class="type">Let us plan you a perfect Holiday</div>
@@ -280,9 +294,9 @@
     </section><!-- /Stats Section -->
 
 
- <section>
+    <section>
         <div class="container">
-        <?php include'secondslider.php' ?>
+            <?php include'secondslider.php' ?>
         </div>
     </section>
 
@@ -841,5 +855,7 @@
 
 
 </main>
+
+
 
 <?php require('include/footer.php') ?>
