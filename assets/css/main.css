@@ -3140,7 +3140,7 @@ header a:hover {
   height: 82vh;
   /* margin-top: -50px; */
   /* width: 100vw; */
-  overflow: hidden;
+  /* overflow: hidden; */
   position: relative;
 }
 
@@ -3162,16 +3162,17 @@ header a:hover {
   position: absolute;
   top: 6%;
   /* max-width: 40%; */
-  left: 25%;
-  transform: translateX(-49%);
+  left: 33%;
+  transform: translateX(-50%);
   box-sizing: border-box;
   color: #fff;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.05) 100%);
   border: 1px solid rgba(255, 255, 255, 1);
-  padding: 2px 31px;
+  padding: 37px 31px;
   border-radius: 30px;
-  width: 45%;
-  height: 72vh;
+  width: 674px;
+  height: auto;
+  background-color: rgb(215 196 196 / 32%);
 }
 
 .slider .list .item .content .title,
@@ -3184,10 +3185,17 @@ header a:hover {
 }
 
 .slider .list .item .content .type {
-  font-size: 33.94px;
-  font-weight: 400;
-  line-height: 44px;
+  font-size: 37.94px;
+  font-weight: 500;
+  line-height: 50px;
   font-family: "Poppins";
+  color: #FFFFFF;
+}
+.holidayplan{
+  font-weight: 400;
+  font-family: 'Poppins';
+  font-size: 20px;
+  line-height: 50px;
   color: #FFFFFF;
 }
 
@@ -3232,11 +3240,14 @@ header a:hover {
 .thumbnail {
   position: absolute;
   bottom: 181px;
-  left: 50%;
+  left: 72%;
   width: max-content;
   z-index: 100;
   display: flex;
   gap: 20px;
+  inset: 0;
+  left: 73%;
+  top: 27%;
 }
 
 .thumbnail .item {
@@ -3604,7 +3615,22 @@ header a:hover {
   }
 }
 
-
+.ply-trip{
+  font-size: 60px;
+  line-height: 72px;
+  color: #FFFFFF;
+  font-family: 'Corinthia';
+  font-weight: 400;
+}
+.planimg {
+  width: 377px !important;
+  height: 169.61px !important;
+  position: absolute;
+  /* top: -5%; */
+  inset: 0;
+  top: -5%;
+  left: 20%;
+}
 @media(max-width: 575px), only screen and (min-width: 576px) and (max-width: 767px), only screen and (min-width: 768px) and (max-width: 991px),
 only screen and (min-width: 992px) and (max-width: 1199px) {
   .Testimonials_heading h2 {
@@ -3614,6 +3640,21 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
     line-height: 17.99px;
     color: #FF7A00;
     margin-left: 11px;
+  }
+
+  .card-design {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 16px;
+    background-color: white;
+    width: 307px;
+    /* height: 384px; */
+    /* border-radius: 16px; */
+    border: 1px solid #FFFFFF !important;
+  }
+
+  .card-design img {
+    width: 225px;
+    /* height: 198px; */
   }
 
   .slider .list .item .content .title {
@@ -3674,14 +3715,15 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
     gap: 20px;
     top: 47%;
     inset: 0;
-    top: 44%;
+    top: 46%;
+    left: 7%;
   }
 
   .slider .list .item .content {
     position: absolute;
     top: 6%;
     max-width: 80%;
-    
+
     left: 49%;
     transform: translateX(-49%);
     box-sizing: border-box;
@@ -3691,8 +3733,8 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
     padding: 19px 1px 100px 0;
     border-radius: 14px;
     width: 80%;
-   height: auto;
-}
+    height: auto;
+  }
 
   .anni {
     font-size: 15.07px !important;
@@ -3821,8 +3863,10 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
     font-weight: 600;
     line-height: 20.22px;
     color: #121212;
+    /* margin-bottom: 30px; */
     text-align: center;
-  }
+    padding: 21px 0;
+}
 
   .book_desc_mob {
     font-size: 13px;

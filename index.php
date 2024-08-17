@@ -6,7 +6,6 @@
 .txt-type>.txt {
     border-right: 0.2rem solid #777;
 }
-
 </style>
 
 
@@ -57,8 +56,13 @@
                         <img src="assets/img/dbg.png" alt="" class='d-none d-md-block'>
                         <img src="assets/img/mobss.png" alt="" class='d-block d-md-none'>
                         <div class="content">
+                    
+                            <div class="ply-trip d-none d-md-block">Plan your trip</div>
                             <div class="title">Welcome to Dubai</div>
                             <div class="type">Let us plan you a perfect Holiday</div>
+                            <div class='holidayplan'>YOUR GATEWAY TO MEMORABLE HOLIDAYS</div>
+                            <div class='holidayplan'>YOUR GATEWAY TO MEMORABLE HOLIDAYS</div>
+                            <div class='holidayplan'>YOUR GATEWAY TO MEMORABLE HOLIDAYS</div>
 
 
                         </div>
@@ -68,8 +72,13 @@
                         <img src="assets/img/dbg1.png" alt="" class='d-none d-md-block'>
                         <img src="assets/img/mobss.png" alt="" class='d-block d-md-none'>
                         <div class="content">
+                      
+                            <div class="ply-trip d-none d-md-block">Plan your trip</div>
                             <div class="title">Welcome to Canada</div>
                             <div class="type">Let us plan you a perfect Holiday</div>
+                            <div class='holidayplan'>YOUR GATEWAY TO MEMORABLE HOLIDAYS</div>
+                            <div class='holidayplan'>YOUR GATEWAY TO MEMORABLE HOLIDAYS</div>
+                            <div class='holidayplan'>YOUR GATEWAY TO MEMORABLE HOLIDAYS</div>
                         </div>
                     </div>
 
@@ -77,8 +86,13 @@
                         <img src="assets/img/dbg2.png" alt="" class='d-none d-md-block'>
                         <img src="assets/img/mobss.png" alt="" class='d-block d-md-none'>
                         <div class="content">
+                   
+                            <div class="ply-trip d-none d-md-block">Plan your trip</div>
                             <div class="title">Welcome to India</div>
                             <div class="type">Let us plan you a perfect Holiday</div>
+                            <div class='holidayplan'>YOUR GATEWAY TO MEMORABLE HOLIDAYS</div>
+                            <div class='holidayplan'>YOUR GATEWAY TO MEMORABLE HOLIDAYS</div>
+                            <div class='holidayplan'>YOUR GATEWAY TO MEMORABLE HOLIDAYS</div>
                         </div>
                     </div>
 
@@ -86,8 +100,13 @@
                         <img src="assets/img/dbg.png" alt="" class='d-none d-md-block'>
                         <img src="assets/img/mobss.png" alt="" class='d-block d-md-none'>
                         <div class="content">
+                       
+                            <div class="ply-trip d-none d-md-block">Plan your trip</div>
                             <div class="title">Welcome to Australia</div>
                             <div class="type">Let us plan you a perfect Holiday</div>
+                            <div class='holidayplan'>YOUR GATEWAY TO MEMORABLE HOLIDAYS</div>
+                            <div class='holidayplan'>YOUR GATEWAY TO MEMORABLE HOLIDAYS</div>
+                            <div class='holidayplan'>YOUR GATEWAY TO MEMORABLE HOLIDAYS</div>
                         </div>
                     </div>
 
@@ -239,18 +258,17 @@
 
                                 <div class="swiper-slide">
                                     <div class="stats-item text-center w-100 h-100">
-                                        <div class=" border-0 m-auto"
-                                            style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; width1:18rem; border-radius: 16px;">
-                                            <div class="card-body">
+                                        <div class="m-auto card-design">
+                                            <div class="card-body py-2">
                                                 <h5 class="book_head">EXCITING PACKAGES</h5>
                                                 <p class="book_desc_mob">
-                                                    Discover your dream vacation with our handcrafted packages,
+                                                    Discover your dream vacation <br> with our handcrafted packages,<br>
                                                     blending
-                                                    excitement and cultural richness.
+                                                    excitement and<br> cultural richness.
                                                 </p>
 
                                             </div>
-                                            <img src="assets/img/booking_img1.png" class="w-100 m-auto" alt="...">
+                                            <img src="assets/img/booking_img1.png" class=" m-auto" alt="...">
                                         </div>
 
                                     </div>
@@ -258,18 +276,17 @@
 
                                 <div class="swiper-slide">
                                     <div class="stats-item text-center w-100 h-100">
-                                        <div class=" border-0"
-                                            style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; width1:16rem; border-radius: 16px;">
-                                            <div class="card-body">
+                                        <div class="m-auto card-design">
+                                            <div class="card-body py-2">
                                                 <h5 class="book_head">EXCITING PACKAGES</h5>
                                                 <p class="book_desc_mob">
-                                                    Discover your dream vacation with our handcrafted packages,
+                                                    Discover your dream vacation <br> with our handcrafted packages,<br>
                                                     blending
-                                                    excitement and cultural richness.
+                                                    excitement and<br> cultural richness.
                                                 </p>
 
                                             </div>
-                                            <img src="assets/img/booking_img1.png" class="w-100 m-auto" alt="...">
+                                            <img src="assets/img/booking_img1.png" class="m-auto" alt="...">
                                         </div>
 
                                     </div>
