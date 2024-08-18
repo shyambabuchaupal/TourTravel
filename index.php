@@ -56,13 +56,13 @@
                         <img src="assets/img/dbg.png" alt="" class='d-none d-md-block'>
                         <img src="assets/img/mobss.png" alt="" class='d-block d-md-none'>
                         <div class="content">
-                    
+
                             <div class="ply-trip d-none d-md-block">Plan your trip</div>
                             <div class="title">Welcome to Dubai</div>
                             <div class="type">Let us plan you a perfect Holiday</div>
                             <div class='holidayplan'>YOUR GATEWAY TO MEMORABLE HOLIDAYS</div>
-                            <div class='holidayplan'>YOUR GATEWAY TO MEMORABLE HOLIDAYS</div>
-                            <div class='holidayplan'>YOUR GATEWAY TO MEMORABLE HOLIDAYS</div>
+                            <div class='holidayplan d-none d-md-block'>YOUR GATEWAY TO MEMORABLE HOLIDAYS</div>
+                            <div class="btntrip"><a href="#" class='text-white'>Travel with us</a></div>
 
 
                         </div>
@@ -72,13 +72,13 @@
                         <img src="assets/img/dbg1.png" alt="" class='d-none d-md-block'>
                         <img src="assets/img/mobss.png" alt="" class='d-block d-md-none'>
                         <div class="content">
-                      
+
                             <div class="ply-trip d-none d-md-block">Plan your trip</div>
                             <div class="title">Welcome to Canada</div>
                             <div class="type">Let us plan you a perfect Holiday</div>
                             <div class='holidayplan'>YOUR GATEWAY TO MEMORABLE HOLIDAYS</div>
-                            <div class='holidayplan'>YOUR GATEWAY TO MEMORABLE HOLIDAYS</div>
-                            <div class='holidayplan'>YOUR GATEWAY TO MEMORABLE HOLIDAYS</div>
+                            <div class='holidayplan d-none d-md-block'>YOUR GATEWAY TO MEMORABLE HOLIDAYS</div>
+                            <div class="btntrip"><a href="#" class='text-white'>Travel with us</a></div>
                         </div>
                     </div>
 
@@ -86,13 +86,13 @@
                         <img src="assets/img/dbg2.png" alt="" class='d-none d-md-block'>
                         <img src="assets/img/mobss.png" alt="" class='d-block d-md-none'>
                         <div class="content">
-                   
+
                             <div class="ply-trip d-none d-md-block">Plan your trip</div>
                             <div class="title">Welcome to India</div>
                             <div class="type">Let us plan you a perfect Holiday</div>
                             <div class='holidayplan'>YOUR GATEWAY TO MEMORABLE HOLIDAYS</div>
-                            <div class='holidayplan'>YOUR GATEWAY TO MEMORABLE HOLIDAYS</div>
-                            <div class='holidayplan'>YOUR GATEWAY TO MEMORABLE HOLIDAYS</div>
+                            <div class='holidayplan d-none d-md-block'>YOUR GATEWAY TO MEMORABLE HOLIDAYS</div>
+                            <div class="btntrip"><a href="#" class='text-white'>Travel with us</a></div>
                         </div>
                     </div>
 
@@ -100,13 +100,13 @@
                         <img src="assets/img/dbg.png" alt="" class='d-none d-md-block'>
                         <img src="assets/img/mobss.png" alt="" class='d-block d-md-none'>
                         <div class="content">
-                       
+
                             <div class="ply-trip d-none d-md-block">Plan your trip</div>
                             <div class="title">Welcome to Australia</div>
                             <div class="type">Let us plan you a perfect Holiday</div>
                             <div class='holidayplan'>YOUR GATEWAY TO MEMORABLE HOLIDAYS</div>
-                            <div class='holidayplan'>YOUR GATEWAY TO MEMORABLE HOLIDAYS</div>
-                            <div class='holidayplan'>YOUR GATEWAY TO MEMORABLE HOLIDAYS</div>
+                            <div class='holidayplan d-none d-md-block'>YOUR GATEWAY TO MEMORABLE HOLIDAYS</div>
+                            <div class="btntrip"><a href="#" class='text-white'>Travel with us</a></div>
                         </div>
                     </div>
 
@@ -148,24 +148,24 @@
 
         <img src="assets/img/booking_bg.png" alt="img" class='bookinbg' data-aos="fade-in">
 
-        <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+        <div class="container position-relative">
             <!-- This is Desktop Vieww  -->
             <div class="d-none d-md-block">
                 <div class="row gy-4 ">
 
                     <div class="col-lg-3 col-md-6 zoom">
                         <div class="stats-item text-center w-100 h-100">
-                            <div class=" border-0"
+                            <div class=" border-0 bg-white"
                                 style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; width:14rem; border-radius: 16px;">
                                 <div class="card-body px-3">
                                     <h5 class="book_head">EXCITING PACKAGES</h5>
                                     <p class="book_desc">
-                                        Discover your dream vacation<br> with our handcrafted packages,<br> blending
-                                        excitement and<br> cultural richness.
+                                        
+                                        Discover your dream vacation <br> with our handcrafted packages,<br> blending excitement and cultural richness.
                                     </p>
 
                                 </div>
-                                <img src="assets/img/booking_img1.png" class="w-50 m-auto" alt="...">
+                                <img src="assets/img/booking_img1.png" class="deskimg m-auto" alt="...">
                             </div>
 
                         </div>
@@ -173,18 +173,17 @@
 
                     <div class="col-lg-3 col-md-6 zoom">
                         <div class="stats-item text-center w-100 h-100">
-                            <div class=" border-0"
+                            <div class=" bg-white border-0"
                                 style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;width:14rem; border-radius: 16px;">
 
                                 <div class="card-body px-3">
                                     <h5 class="book_head">REASONABLE PRICE</h5>
                                     <p class="book_desc">
-                                        Discover your dream vacation<br> with our handcrafted packages,<br> blending
-                                        excitement and<br> cultural richness.
+                                    Budget-friendly escapades<br> from flights and hotels to currency <br>conversion, we’ve got you all covered.
                                     </p>
 
                                 </div>
-                                <img src="assets/img/booking_img1.png" class="w-50 m-auto" alt="...">
+                                <img src="assets/img/booking_img1.png" class="deskimg m-auto" alt="...">
                             </div>
 
                         </div>
@@ -192,18 +191,17 @@
 
                     <div class="col-lg-3 col-md-6 zoom">
                         <div class="stats-item text-center w-100 h-100">
-                            <div class=" border-0"
+                            <div class=" bg-white border-0"
                                 style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; width:14rem;border-radius: 16px;">
 
                                 <div class="card-body px-3">
                                     <h5 class="book_head">CUSTOMIZED TRAVEL</h5>
                                     <p class="book_desc">
-                                        Discover your dream vacation<br> with our handcrafted packages,<br> blending
-                                        excitement and<br> cultural richness.
+                                    Begin your dream vacation<br> effortlessly with our easy<br>, instant, and hassle-free booking experience.
                                     </p>
 
                                 </div>
-                                <img src="assets/img/booking_img1.png" class="w-50 m-auto" alt="...">
+                                <img src="assets/img/booking_img1.png" class="deskimg m-auto" alt="...">
                             </div>
 
                         </div>
@@ -211,7 +209,7 @@
 
                     <div class="col-lg-3 col-md-6 zoom">
                         <div class="stats-item text-center w-100 h-100">
-                            <div class=" border-0"
+                            <div class=" bg-white border-0"
                                 style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; width:14rem; border-radius: 16px;">
 
                                 <div class="card-body px-3">
@@ -222,7 +220,7 @@
                                     </p>
 
                                 </div>
-                                <img src="assets/img/booking_img1.png" class="w-50 m-auto" alt="...">
+                                <img src="assets/img/booking_img1.png" class="deskimg m-auto" alt="...">
                             </div>
 
                         </div>
@@ -262,9 +260,7 @@
                                             <div class="card-body py-2">
                                                 <h5 class="book_head">EXCITING PACKAGES</h5>
                                                 <p class="book_desc_mob">
-                                                    Discover your dream vacation <br> with our handcrafted packages,<br>
-                                                    blending
-                                                    excitement and<br> cultural richness.
+                                                    Discover your dream vacation<br> with our handcrafted <br>packages, blending excitement and cultural richness.
                                                 </p>
 
                                             </div>
@@ -278,11 +274,40 @@
                                     <div class="stats-item text-center w-100 h-100">
                                         <div class="m-auto card-design">
                                             <div class="card-body py-2">
-                                                <h5 class="book_head">EXCITING PACKAGES</h5>
+                                                <h5 class="book_head">REASONABLE PRICE</h5>
                                                 <p class="book_desc_mob">
-                                                    Discover your dream vacation <br> with our handcrafted packages,<br>
-                                                    blending
-                                                    excitement and<br> cultural richness.
+                                                Budget-friendly escapades<br> from flights and hotels to currency <br>conversion, we’ve got you all covered.
+                                                </p>
+
+                                            </div>
+                                            <img src="assets/img/booking_img1.png" class="m-auto" alt="...">
+                                        </div>
+
+                                    </div>
+                                </div><!-- End testimonial item -->
+                                <div class="swiper-slide">
+                                    <div class="stats-item text-center w-100 h-100">
+                                        <div class="m-auto card-design">
+                                            <div class="card-body py-2">
+                                                <h5 class="book_head">CUSTOMIZED TRAVEL</h5>
+                                                <p class="book_desc_mob">
+                                                Begin your dream vacation<br> effortlessly with our easy<br>, instant, and hassle-free booking experience.
+                                                </p>
+
+                                            </div>
+                                            <img src="assets/img/booking_img1.png" class="m-auto" alt="...">
+                                        </div>
+
+                                    </div>
+                                </div><!-- End testimonial item -->
+                                <div class="swiper-slide">
+                                    <div class="stats-item text-center w-100 h-100">
+                                        <div class="m-auto card-design">
+                                            <div class="card-body py-2">
+                                                <h5 class="book_head">QUICK BOOKINGS</h5>
+                                                <p class="book_desc_mob">
+                                                Discover your dream vacation<br> with our handcrafted packages,<br> blending
+                                                excitement and<br> cultural richness.
                                                 </p>
 
                                             </div>
@@ -798,13 +823,12 @@
                         <div class=" align-items-center mt-3">
                             <p class='contact_phone mb-0'><i class="bi bi-telephone-fill fs-5 mt-2"
                                     style='color:black;'></i> <span class='ms-2'>
-                                    <b> phone:</b> <a href="#" class='fs-6' style='color:#5B5B5B;'>9988776655,
-                                        9988226677</a>
+                                    <b> phone:</b> <a href="#" class='fs-6' style='color:#5B5B5B;'> 08800150150, 08800140140, 01204314040</a>
                                 </span></p>
                             <p class='contact_phone mb-0'><i class="bi bi-envelope-fill fs-5 mt-2"
                                     style='color:black;'></i> <span class='ms-2'>
-                                    <b>Email:</b> <a href="#" class='fs-6'
-                                        style='color:#5B5B5B;'>info@bluebelltravels.com</a>
+                                    <b>Email:</b> <a href="mailto:info@bluebelltravels.com" class='fs-6'
+                                        style='color:#F28B38;'>info@bluebelltravels.com</a>
                                 </span></p>
                             <p class='contact_phone'><i class="bi bi-stopwatch-fill fs-5 mt-2" style='color:black;'></i>
                                 <span class='ms-2'>
@@ -826,7 +850,7 @@
                 <div class="col-lg-6 col-12">
                     <div class="contact_right">
                         <h2>Get a call back</h2>
-                        <form action="" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+                        <form action="" method="post" class="php-email-form" >
                             <div class="row gy-4">
 
                                 <div class="col-md-6">

@@ -12,15 +12,15 @@ maintravel {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
-    place-items: center;
-    min-height: 100vh;
+    place-items: inherit;
+    min-height: 80vh;
 }
 
 .sliderHeading h2 {
-    font-size: 35px;
+    font-size: 32px;
     text-align: left;
     font-weight: 700;
-    /* line-height: 60px; */
+    line-height: 60px;
     font-family: 'Exo 2';
 }
 
@@ -222,9 +222,7 @@ maintravel {
     maintravel {
         grid-template-columns: 1fr;
         grid-template-rows: 4fr 3fr;
-        grid-template-areas:
-            "stacked"
-            "content";
+        grid-template-areas: "content""stacked";
     }
 
     .content {
@@ -249,6 +247,7 @@ maintravel {
 
     .content {
         padding: 0 1px;
+        margin-bottom: -70px;
     }
 
     .content h1 {
@@ -260,6 +259,10 @@ maintravel {
         text-align: left;
         line-height: 35px;
     }
+    .stack {
+    grid-area: stacked;
+    margin-bottom: -95px;
+}
 
     .content p {
         font-size: 16px;
@@ -267,7 +270,7 @@ maintravel {
         padding-right: 0px;
         color: black;
         font-family: 'Poppins';
-        text-align: left;
+        text-align: center;
     }
 
     .btn {
@@ -290,7 +293,9 @@ maintravel {
 </style>
 
 <body>
-
+    <!-- <div class="col-lg-12 sliderHeading">
+        <h2 style='text-align:center;'>INTERNATIONAL DESTINATIONS</h2>
+    </div> -->
     <maintravel>
 
         <div class="content">
@@ -300,6 +305,12 @@ maintravel {
             <p>
                 Let us be your guide to discovering the vibrant hues and cultural treasures nestled within India’s
                 heartland.
+            </p>
+            <p>
+            Discover your dream vacation with our handcrafted packages, blending excitement and cultural richness.
+            </p>
+            <p>
+            Begin your dream vacation effortlessly with our easy, instant, and hassle-free booking experience.
             </p>
             <a href='internationaldestinations.php' class="btn">Explore More</a>
         </div>
@@ -351,7 +362,7 @@ maintravel {
             }
         }
 
-        let autoplayInterval = setInterval(moveCard, 4000);
+        let autoplayInterval = setInterval(moveCard, 2000);
 
         stack.addEventListener("click", function(e) {
             const card = e.target.closest(".card");
