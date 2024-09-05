@@ -1,4 +1,4 @@
-<?php require('include/header.php') ?>
+<?php include 'include/header.php' ?>
 
 <!-- Hero Section -->
 <section id="hero" class="hero section">
@@ -59,4 +59,4 @@
 
 </section>
 
-<?php require('include/footer.php') ?>
+<?php include 'include/footer.php' ?>

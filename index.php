@@ -1,4 +1,4 @@
-<?php require('include/header.php') ?>
+<?php include 'include/header.php' ?>
 <style>
 /*     
     
@@ -23,7 +23,7 @@
                         <h2 data-aos="fade-up" data-aos-delay="100"> Welcome to Blue Bell Travels</h2>
                         <h1 class='anni'>
                             <span class="txt-type" data-wait="3000"
-                                data-words='["YOUR GATEWAY TO MEMORABLE HOLIDAYS", "YOUR GATEWAY TO MEMORABLE HOLIDAYS"]'></span>
+                                data-words='["Your Gateway To  Memorable  Holidays", "Your Gateway To  Memorable  Holidays"]'></span>
                         </h1>
                     </div>
 
@@ -850,42 +850,41 @@
                 <div class="col-lg-6 col-12">
                     <div class="contact_right">
                         <h2>Get a call back</h2>
-                        <form action="" method="post" class="php-email-form" >
-                            <div class="row gy-4">
+                        <form method="POST" action="">
+                        <div class="row gy-4">
 
-                                <div class="col-md-6">
-                                    <label for="exampleInputEmail1" class="form-label">First Name</label>
-                                    <input type="text" name="name" class="form-control" required="">
-                                </div>
-
-                                <div class="col-md-6 ">
-                                    <label for="exampleInputEmail1" class="form-label">Last Name</label>
-                                    <input type="text" class="form-control" name="lastname" required="">
-                                </div>
-
-                                <div class="col-md-12">
-                                    <label for="exampleInputEmail1" class="form-label">Email</label>
-                                    <input type="email" class="form-control" name="email" required="">
-                                </div>
-                                <div class="col-md-12">
-                                    <label for="exampleInputEmail1" class="form-label">Phone No.</label>
-                                    <input type="text" class="form-control" name="phone" required="">
-                                </div>
-
-                                <div class="col-md-12">
-                                    <label for="exampleInputEmail1" class="form-label">Your Message</label>
-                                    <textarea class="form-control" name="message" rows="6" placeholder="Message"
-                                        required=""></textarea>
-                                </div>
-
-                                <div class="col-md-12">
-
-
-                                    <button type="submit" class='rounded-pill text-white sentbtn'>Send</button>
-                                </div>
-
+                            <div class="col-md-6">
+                                <label for="exampleInputEmail1" class="form-label">First Name</label>
+                                <input type="text" name="fname" class="form-control" required="">
                             </div>
-                        </form>
+
+                            <div class="col-md-6 ">
+                                <label for="exampleInputEmail1" class="form-label">Last Name</label>
+                                <input type="text" class="form-control" name="lname" required="">
+                            </div>
+
+                            <div class="col-md-12">
+                                <label for="exampleInputEmail1" class="form-label">Email</label>
+                                <input type="text" class="form-control" name="email" required="">
+                            </div>
+                            <div class="col-md-12">
+                                <label for="exampleInputEmail1" class="form-label">Phone No.</label>
+                                <input type="number" class="form-control" name="phone" placeholder='+91 |' required="">
+                            </div>
+
+                            <div class="col-md-12">
+                                <label for="exampleInputEmail1" class="form-label">Your Message</label>
+                                <textarea class="form-control" name="message" rows="6" placeholder="Message"
+                                    required=""></textarea>
+                            </div>
+
+                            <div class="col-md-12">
+                                <button type="submit" name="submit"
+                                    class='rounded-pill text-white sentbtn'>Send</button>
+                            </div>
+
+                        </div>
+                    </form>
                     </div>
                 </div>
             </div>
@@ -898,5 +897,26 @@
 </main>
 
 
+<?php
+if(isset($_POST['submit'])){
+    $fname = $_POST['fname'];
+    $lname = $_POST['lname'];
+    $email = $_POST['email'];
+    $phone = $_POST['phone'];
+    $message = $_POST['message'];
+    $query ="INSERT INTO `infodata`( `fname`, `lname`, `email`, `phone`, `message`)
+     VALUES ('$fname','$lname','$email','$phone','$message')";
+     $result = mysqli_query($conn, $query);
+     if($result=="1"){
+        echo "<Script> alert('Thank You for Contact Us !!') </script>";
+        $yourURL="index.php";
+        echo ("<script>location.href='$yourURL'</script>");
+     }else{
+        echo "<Script> alert('Registration Faild !!') </script>";
+        $yourURL="contact.php";
+        echo ("<script>location.href='$yourURL'</script>");
+     }
+}
+?>
 
-<?php require('include/footer.php') ?>
+<?php include 'include/footer.php' ?>

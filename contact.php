@@ -1,4 +1,4 @@
-<?php require('include/header.php') ?>
+<?php include 'include/header.php' ?>
 
 <!-- Hero Section -->
 <section id="hero" class="hero section">
@@ -30,18 +30,25 @@
                     <h6>Reach out to us – whether you have questions about our packages,
                         need assistance with bookings, or simply want expert advice on your next destination.</h6>
                     <div class=" align-items-center mt-3">
-                        <p class='contact_phone mb-0'><i class="bi bi-telephone-fill fs-5 mt-2" style='color:black;'></i> <span class='ms-2'>
-                                <b> phone:</b> <a href="#" class='fs-6' style='color:#5B5B5B;'>9988776655, 9988226677</a>
+                        <p class='contact_phone mb-0'><i class="bi bi-telephone-fill fs-5 mt-2"
+                                style='color:black;'></i> <span class='ms-2'>
+                                <b> phone:</b> <a href="#" class='fs-6' style='color:#5B5B5B;'>9988776655,
+                                    9988226677</a>
                             </span></p>
-                            <p class='contact_phone mb-0'><i class="bi bi-envelope-fill fs-5 mt-2" style='color:black;'></i> <span class='ms-2'>
-                                <b>Email:</b> <a href="#" class='fs-6' style='color:#5B5B5B;'>info@bluebelltravels.com</a>
+                        <p class='contact_phone mb-0'><i class="bi bi-envelope-fill fs-5 mt-2" style='color:black;'></i>
+                            <span class='ms-2'>
+                                <b>Email:</b> <a href="#" class='fs-6'
+                                    style='color:#5B5B5B;'>info@bluebelltravels.com</a>
                             </span></p>
-                            <p class='contact_phone'><i class="bi bi-stopwatch-fill fs-5 mt-2" style='color:black;'></i> <span class='ms-2'>
-                                <b> Hours:</b> <a href="#" class='fs-6' style='color:#5B5B5B;'>10 am – 8 pm. Closed on Sundays.</a>
+                        <p class='contact_phone'><i class="bi bi-stopwatch-fill fs-5 mt-2" style='color:black;'></i>
+                            <span class='ms-2'>
+                                <b> Hours:</b> <a href="#" class='fs-6' style='color:#5B5B5B;'>10 am – 8 pm. Closed on
+                                    Sundays.</a>
                             </span></p>
-                            <p class='contact_phone'><i class="bi bi-geo-alt fs-5 mt-2" style='color:black;'></i> <span class='ms-2'>
+                        <p class='contact_phone'><i class="bi bi-geo-alt fs-5 mt-2" style='color:black;'></i> <span
+                                class='ms-2'>
                                 <b> address:</b> <a href="#" class='fs-6' style='color:#5B5B5B;'>
-                                LGF-70, Ansal Fortune Arcade, Sector 18, Noida,<br> Uttar Pradesh 201301
+                                    LGF-70, Ansal Fortune Arcade, Sector 18, Noida,<br> Uttar Pradesh 201301
                                 </a>
                             </span></p>
 
@@ -52,26 +59,26 @@
             <div class="col-lg-6 col-12">
                 <div class="contact_right">
                     <h2>Get a call back</h2>
-                    <form action="" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+                    <form method="POST" action="">
                         <div class="row gy-4">
 
                             <div class="col-md-6">
                                 <label for="exampleInputEmail1" class="form-label">First Name</label>
-                                <input type="text" name="name" class="form-control" required="">
+                                <input type="text" name="fname" class="form-control" required="">
                             </div>
 
                             <div class="col-md-6 ">
                                 <label for="exampleInputEmail1" class="form-label">Last Name</label>
-                                <input type="text" class="form-control" name="lastname" required="">
+                                <input type="text" class="form-control" name="lname" required="">
                             </div>
 
                             <div class="col-md-12">
                                 <label for="exampleInputEmail1" class="form-label">Email</label>
-                                <input type="email" class="form-control" name="email" required="">
+                                <input type="text" class="form-control" name="email" required="">
                             </div>
                             <div class="col-md-12">
                                 <label for="exampleInputEmail1" class="form-label">Phone No.</label>
-                                <input type="text" class="form-control" name="phone" required="">
+                                <input type="number" class="form-control" name="phone" placeholder='+91 |' required="">
                             </div>
 
                             <div class="col-md-12">
@@ -81,9 +88,8 @@
                             </div>
 
                             <div class="col-md-12">
-
-
-                                <button type="submit" class='rounded-pill text-white sentbtn'>Send</button>
+                                <button type="submit" name="submit"
+                                    class='rounded-pill text-white sentbtn'>Send</button>
                             </div>
 
                         </div>
@@ -95,4 +101,26 @@
 </section>
 <!-- Contact Section -->
 
-<?php require('include/footer.php') ?>
+<?php
+if(isset($_POST['submit'])){
+    $fname = $_POST['fname'];
+    $lname = $_POST['lname'];
+    $email = $_POST['email'];
+    $phone = $_POST['phone'];
+    $message = $_POST['message'];
+    $query ="INSERT INTO `infodata`( `fname`, `lname`, `email`, `phone`, `message`)
+     VALUES ('$fname','$lname','$email','$phone','$message')";
+     $result = mysqli_query($conn, $query);
+     if($result=="1"){
+        echo "<Script> alert('Thank You for Contact Us !!') </script>";
+        $yourURL="index.php";
+        echo ("<script>location.href='$yourURL'</script>");
+     }else{
+        echo "<Script> alert('Registration Faild !!') </script>";
+        $yourURL="contact.php";
+        echo ("<script>location.href='$yourURL'</script>");
+     }
+}
+?>
+
+<?php include 'include/footer.php' ?>
